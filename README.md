@@ -1,11 +1,9 @@
-# GaitFi: Robust Device-Free Human Identification via WiFi and Vision Multimodal Learning
+# GaitFi: Robust Device-Free Human Identification via WiFi and Vision Multimodal Learning [[link]](https://doi.org/10.48550/arXiv.2208.14326)
 
 ## Introduction
 As an important biomarker for human identification, human gait can be collected at a distance by passive sensors without subject cooperation, which plays an essential role in crime prevention, security detection and other human identification applications. At present, most research works are based on cameras and computer vision techniques to perform gait recognition. However, vision-based methods are not reliable when confronting poor illuminations, leading to degrading performances. In this paper, we propose a novel multimodal gait recognition method, namely GaitFi, which leverages WiFi signals and videos for human identification. In GaitFi, Channel State Information (CSI) that reflects the multi-path propagation of WiFi is collected to capture human gaits, while videos are captured by cameras. To learn robust gait information, we propose a Lightweight Residual Convolution Network (LRCN) as the backbone network, and further propose the two-stream GaitFi by integrating WiFi and vision features for the gait retrieval task. The GaitFi is trained by the triplet loss and classification loss on different levels of features. Extensive experiments are conducted in the real world, which demonstrates that the GaitFi outperforms state-of-the-art gait recognition methods based on single WiFi or camera, achieving 94.2\% for human identification tasks of 12 subjects.
 
-![framework](https://github.com/Marsrocky/GaitFi/framework.jpg)
-
-You can read our [paper](https://doi.org/10.48550/arXiv.2208.14326) here
+![framework](https://github.com/Marsrocky/GaitFi/blob/main/Framework.jpg)
 
 ## Requirements
 
